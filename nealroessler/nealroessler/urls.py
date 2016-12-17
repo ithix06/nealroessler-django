@@ -20,5 +20,6 @@ urlpatterns = [
     url(r'^', include('nealwebsite.urls')),
     url(r'^nealwebsite/', include('nealwebsite.urls')),
     url(r'^polls/', include('polls.urls')),
+    url(r'^bitstar/', include('bitstar.urls')),
     url(r'^admin/', admin.site.urls),
 ]
